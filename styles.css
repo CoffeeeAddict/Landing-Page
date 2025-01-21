@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.header,
+.descriptionContent,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+}
+
+.descriptionContent {
+    flex-grow: 5;
+    display: flex;
+}
+
+.information {
+    flex-grow: 6;
+}
+
+.quote {
+    flex-grow: 5;
+}
+
+.footer {
+    height: 50px;
+}
+
+.signUp {
+    flex-grow: 4;
+}
+
+.blankSpace {
+    width: 150px;
+}
+
+.headerContent {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.headerLink {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 25px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+}
