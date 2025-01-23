@@ -38,7 +38,7 @@ body {
 }
 
 .quote {
-    height: 350px;
+    height: 430px;
 }
 
 .footer {
@@ -47,7 +47,7 @@ body {
 
 .signUp {
     flex-grow: 4;
-    height: 150px;
+    height: 350px;
 }
 
 .heroSignUp {
@@ -144,6 +144,35 @@ body {
     font-size: 18px;
     color: #4b5563;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.quoteWords {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quoteAuthor {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
 }
 
 .reindeer {
