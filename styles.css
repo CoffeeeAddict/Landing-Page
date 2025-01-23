@@ -166,6 +166,7 @@ body {
     font-style: italic;
     color: #1F2937;
     width: 800px;
+    font-weight: 300;
 }
 
 .quoteAuthor {
@@ -175,6 +176,58 @@ body {
     align-self: flex-end;
 }
 
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.signUpContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signUpButton {
+    border: 2px solid #F9FAF8;
+    padding: 5px 30px;
+    color: #F9FAF8;
+    background-color: inherit;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signUpMain {
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.signUpDesc {
+    color: #c5d4ec;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #F9FAF8
+}
 .reindeer {
     width: auto;
     height: 400px;
